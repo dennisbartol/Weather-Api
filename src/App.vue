@@ -33,7 +33,7 @@ export default {
     methods: { 
       fetchWeather(event) {
         if (event.key == "Enter") {
-          fetch(`${this.api_base}weather?q=${this.query}&units=metric&APPID=${this.api_key}`)
+          fetch(`${this.url_base}weather?q=${this.query}&units=metric&APPID=${this.api_key}`)
             .then(res => {
               return res.json();
             }).then(this.setResults);
