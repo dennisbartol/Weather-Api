@@ -3,10 +3,19 @@
     <main>
        <div class="search-box">
          <input type="text" class="search-bar" placeholder="Search..." />
-         
        </div>
-    </main>  
-  </div>
+       
+       <div class="weather-wrap"?
+        <div class="location-box">
+          <div class="location"></div>
+          <div class="date"></div>
+       </div>  
+
+      <div class="weather-box">
+      </div>
+    </div>
+  </main>  
+
 </template>
 
 
