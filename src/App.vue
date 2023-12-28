@@ -24,9 +24,19 @@ export default {
   name: 'app',
   data() {
     return {
-      api_key: ''
+      api_key: '', 
+      url_base: 'https://api.openweathermap.org/data/2.5',
+      query: '', 
+      weather: {}
     }
-  }
+  },
+    methods: { 
+      fetchWeather(event) {
+        if (event.key == "Enter") {
+          fetch(`${this.api_base}weather?q=`)
+        }
+      }  
+    }
 </script>
 
 
