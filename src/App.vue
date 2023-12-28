@@ -33,7 +33,7 @@ export default {
     methods: { 
       fetchWeather(event) {
         if (event.key == "Enter") {
-          fetch(`${this.api_base}weather?q=`)
+          fetch(`${this.api_base}weather?q=${this.query}`)
         }
       }  
     }
