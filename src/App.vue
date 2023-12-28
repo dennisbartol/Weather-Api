@@ -2,12 +2,15 @@
   <div id="app">
     <main>
        <div class="search-box">
-         <input type="text" class="search-bar" placeholder="Search..." />
+         <input type="text" class="search-bar" 
+           placeholder="Search..." 
+           v-model = "query"
+           @keypress="fetchWeather" />
        </div>
        
-       <div class="weather-wrap"?
+       <div class="weather-wrap" v-if="typeof weather.main != 'undefined' ">
         <div class="location-box">
-          <div class="location"></div>
+          <div class="location"> {{ weather.name }}, {{weather.sys.country }}</div>
           <div class="date"></div>
        </div>  
 
