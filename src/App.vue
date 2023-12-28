@@ -15,10 +15,12 @@
        </div>  
 
       <div class="weather-box">
+        <div class="temp">9 C</div>
+        <div class="weather">Rain</div>
       </div>
+         
     </div>
   </main>  
-
 </template>
 
 
