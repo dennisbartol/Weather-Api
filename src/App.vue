@@ -59,8 +59,17 @@ main {
    font-size: 1.5em;
    border: none; 
    outline: none; 
-
+   background: none; 
+   background-color: rgba(255, 255, 255, 0.25);
+   border-radius: 0px 15px 0px 15px; 
+   transition: 0.5s; 
+   box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.35);
+    
 }
-  
+
+.search-box .search-bar:focus { 
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.35); 
+  background-color: rgba(255, 255, 255, 0.75);
+}
   
 </style>
