@@ -48,6 +48,7 @@ export default {
         this.weather = results; 
        }
      }  
+  // Add function dateBuild() to build up the .. Full date 
    }
 </script>
 
