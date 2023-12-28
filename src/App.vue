@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-
+    <main>
+       <div class="search-box">
+         <input type="text" class="search-bar">
+       </div>
+    </main>  
   </div>
 </template>
 
