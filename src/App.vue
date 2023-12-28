@@ -3,9 +3,9 @@
     <main>
        <div class="search-box">
          <input type="text" class="search-bar" 
-           placeholder="Search..." 
+           placeholder = "Search..." 
            v-model = "query"
-           @keypress="fetchWeather" />
+           @keypress = "fetchWeather" />
        </div>
        
        <div class="weather-wrap" v-if="typeof weather.main != 'undefined' ">
