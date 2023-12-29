@@ -47,7 +47,7 @@ export default {
       setResults (results) {
         this.weather = results; 
        },
-        // Add function dateBuild() to build up the .. Full date 
+        // Added function dateBuild() to build up the .. Full date 
         dateBuild() {
           let build = new Date();
           let months = ["January", "February", "March", "April", "May", "June", "July", "August",
