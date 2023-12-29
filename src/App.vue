@@ -49,15 +49,15 @@ export default {
        },
         // Add function dateBuild() to build up the .. Full date 
         dateBuild() {
-          let d = new Date();
+          let build = new Date();
           let months = ["January", "February", "March", "April", "May", "June", "July", "August",
                         "September", "October", "November", "December"];
           let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-          let day = days[d.getDay()];
-          let date = d.getDate();
-          let month = months[d.getMonth()];
-          let year = d.getFullYear();
+          let day = days[build.getDay()];
+          let date = build.getDate();
+          let month = months[build.getMonth()];
+          let year = build.getFullYear();
           
           return `${day} ${date} ${month} ${year}`;
         }
