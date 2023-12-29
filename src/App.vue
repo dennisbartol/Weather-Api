@@ -117,5 +117,25 @@ main {
   box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.35); 
   background-color: rgba(255, 255, 255, 0.75);
 }
+
+.location-box .location {
+  color: ghostwhite;
+  font-size: 4em;
+  font-weight: 600;
+  text-align: center;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.25);
+}
+
+.location-box .date {
+  color: ghostwhite;
+  font-size: 2em;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+.weather-box {
+  text-align: center;
+}  
   
 </style>
