@@ -46,9 +46,18 @@ export default {
         },
       setResults (results) {
         this.weather = results; 
-       }
+       },
+        // Add function dateBuild() to build up the .. Full date 
+        dateBuild() {
+          let d = new Date();
+          let months = ["January", "February", "March", "April", "May", "June", "July", "August",
+                        "September", "October", "November", "December"];
+          let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+
+          let day = days[d.getDay()];
+          
+        }
      }  
-  // Add function dateBuild() to build up the .. Full date 
    }
 </script>
 
