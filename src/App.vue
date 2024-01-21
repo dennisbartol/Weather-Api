@@ -1,5 +1,30 @@
 <template>
   <div id="app"  :class="typeof weather.main != 'undefined' && weather.main.temp > 16 ? 'warm' : '' ">
+
+
+
+
+   
+    
+    
+    // Adding the menu header 
+
+    <header>
+      <nav>
+        <ul>
+          <router-link to="/">Home</router-link>
+          <router-link to="/about">About</router-link>
+          <router-link to="/forecast">Forecast</router-link>
+        </ul>
+      </nav>
+    </header>
+
+
+
+
+
+
+    
     
     <main>
        <div class="search-box">
